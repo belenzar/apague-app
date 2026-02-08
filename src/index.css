@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background: linear-gradient(135deg, #f8b5d0, #d6b4fc);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  width: 100%;
+  padding: 16px;
+}
+
+.card {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 24px;
+
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3a2b5f;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+}
+
+.list {
+  margin: 16px 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 0;
+  font-size: 16px;
+  color: #2e2e2e;
+}
+
+.item input {
+  transform: scale(1.2);
+}
+
+.button {
+  width: 100%;
+  padding: 14px;
+
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
