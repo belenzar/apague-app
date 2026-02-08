@@ -1,6 +1,6 @@
 {
   "name": "Apague App",
-  "short_name": "Checklist",
+  "short_name": "Apague App",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -10,3 +10,4 @@
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
+
