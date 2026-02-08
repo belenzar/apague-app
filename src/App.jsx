@@ -91,6 +91,10 @@ export default function App() {
         <button className="button" onClick={enviarWhatsapp}>
           Salir de casa ✅
         </button>
+
+        <footer className="footer">
+          Apagué App · by María Zárate · 2026
+        </footer>
       </div>
     </main>
   );
