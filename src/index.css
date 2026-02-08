@@ -89,3 +89,10 @@ body {
 .button:active {
   transform: scale(0.98);
 }
+
+.footer {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(60, 40, 100, 0.6);
+}
