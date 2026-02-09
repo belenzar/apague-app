@@ -1,16 +1,82 @@
-# React + Vite
+# ¿Apagué? 🔌📱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App mobile-first desarrollada en React para verificar tareas importantes antes de salir de casa.
 
-Currently, two official plugins are available:
+Permite a la usuaria completar un checklist personalizado y, al confirmar, enviar un mensaje de confirmación por WhatsApp como recordatorio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Demo
+🔗 https://apague-app.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Descripción del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+¿Apagué? surge como una solución simple a un problema cotidiano: la duda de si dejamos todo apagado antes de salir.
+
+La aplicación está pensada para uso rápido desde el celular, con una interfaz clara, visual y minimalista, priorizando la experiencia mobile-first.
+
+---
+
+## ✨ Funcionalidades
+
+- Checklist de tareas antes de salir de casa
+- Campos personalizados (nombre y teléfono)
+- Confirmación final con envío de mensaje por WhatsApp
+- Diseño responsive (mobile-first)
+- Interfaz con glassmorphism y fondo degradado
+- Feedback visual al completar acciones
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Responsive Design
+- Mobile-first UI
+- WhatsApp API (link directo)
+
+---
+
+## 🎨 Diseño
+
+El diseño prioriza:
+- claridad visual
+- contraste suave
+- estética moderna
+- enfoque mobile
+
+Se utilizó un fondo en degradé rosa/violeta y una card central con efecto glassmorphism para resaltar el checklist.
+
+---
+
+## 📌 Motivación
+
+Este proyecto fue desarrollado como práctica personal para:
+- afianzar conocimientos en React
+- trabajar flujos de usuario reales
+- mejorar criterios de UX/UI
+- construir un proyecto completo listo para portfolio
+
+---
+
+## 🔮 Posibles mejoras futuras
+
+- Edición dinámica del checklist
+- Guardado de datos en localStorage
+- Modo oscuro
+- Notificaciones automáticas
+- Internacionalización (i18n)
+
+---
+
+## 👩‍💻 Autora
+
+María Zárate  
+Front-End Developer  
+🔗 https://linkedin.com/in/belenzar  
+💻 https://mariazar-portfolio.vercel.app
