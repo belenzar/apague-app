@@ -52,6 +52,25 @@ export default function App() {
     );
   };
 
+  const generarRecomendacionesIA = async () => {
+  const response = await fetch(
+    "https://mariazar.app.n8n.cloud/webhook-test/apague",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        contexto,
+      }),
+    }
+  );
+
+  const data = await response.json();
+
+  console.log(data);
+};
+
   return (
     <main className="app-container">
       <div className="card">
