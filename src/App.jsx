@@ -82,6 +82,13 @@ export default function App() {
           value={contexto}
           onChange={(e) => setContexto(e.target.value)}
         />
+
+        <button
+          className="button"
+          onClick={generarRecomendacionesIA}
+        >
+          Generar recomendaciones IA 🤖
+        </button>
         
         <small>
           La IA utilizará esta información para generar recomendaciones personalizadas.
