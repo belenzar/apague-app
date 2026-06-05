@@ -36,7 +36,7 @@ export default function App() {
   const generarRecomendacionesIA = async () => {
   try {
     const response = await fetch(
-      "https://mariazar.app.n8n.cloud/webhook-test/apague",
+      "https://mariazar.app.n8n.cloud/webhook/apague",
       {
         method: "POST",
         headers: {
