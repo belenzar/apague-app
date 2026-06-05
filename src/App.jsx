@@ -14,6 +14,7 @@ const ITEMS = [
 export default function App() {
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
+  const [contexto, setContexto] = useState("");
   const [checked, setChecked] = useState({});
 
   useEffect(() => {
@@ -74,7 +75,18 @@ export default function App() {
           value={telefono}
           onChange={(e) => setTelefono(e.target.value)}
         />
-
+        
+        <textarea
+          className="input"
+          placeholder="Ej: Voy al trabajo y está lloviendo"
+          value={contexto}
+          onChange={(e) => setContexto(e.target.value)}
+        />
+        
+        <small>
+          La IA utilizará esta información para generar recomendaciones personalizadas.
+        </small>
+        
         <section className="list">
           {ITEMS.map((item) => (
             <label key={item} className="item">
