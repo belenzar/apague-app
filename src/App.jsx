@@ -33,25 +33,28 @@ export default function App() {
     setChecked({ ...checked, [item]: !checked[item] });
   };
 
-    const generarRecomendacionesIA = async () => {
-  const response = await fetch(
-    "https://mariazar.app.n8n.cloud/webhook-test/apague",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        contexto,
-      }),
-    }
-  );
+  const generarRecomendacionesIA = async () => {
+  try {
+    const response = await fetch(
+      "https://mariazar.app.n8n.cloud/webhook-test/apague",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          contexto,
+        }),
+      }
+    );
 
-  const data = await response.json();
+    const text = await response.text();
 
-  console.log(data);
+    console.log("Respuesta:", text);
+  } catch (error) {
+    console.error(error);
+  }
 };
-
 
   const enviarWhatsapp = () => {
     if (!nombre || !telefono) {
